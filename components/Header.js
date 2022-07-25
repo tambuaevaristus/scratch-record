@@ -28,8 +28,8 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav flex-center ms-auto">
             <li className="nav-item">
-              <Link href="/about">
-                <a className="nav-link" aria-current="page" href="/index">
+              <Link href="/">
+                <a className="nav-link" aria-current="page">
                   Home
                 </a>
               </Link>
