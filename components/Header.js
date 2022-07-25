@@ -36,28 +36,28 @@ function Header() {
             </li>
             <li className="nav-item">
               <Link href="/about">
-                <a className="nav-link" aria-current="page" href="#!">
+                <a className="nav-link" aria-current="page" >
                   About
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/services">
-                <a className="nav-link" aria-current="page" href="#!">
+                <a className="nav-link" aria-current="page">
                   Services
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/project">
-                <a className="nav-link" aria-current="page" href="#!">
+                <a className="nav-link" aria-current="page">
                   Projects
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/contact">
-                <a className="nav-link" aria-current="page" href="#!">
+                <a className="nav-link" aria-current="page">
                   Contact
                 </a>
               </Link>
