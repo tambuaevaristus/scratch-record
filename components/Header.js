@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiMenu } from 'react-icons/fi';
@@ -8,7 +9,7 @@ function Header() {
     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
       <div className="container">
         <Link href="about">
-          <a className="navbar-brand"><img src="/assets/logo.png" width={75} alt="" /></a>
+          <a className="navbar-brand"><Image src="/assets/logo.png" width={75} height={45} alt="" /></a>
         </Link>
         <button
           className="navbar-toggler hamburger hamburger-emphatic"
