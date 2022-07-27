@@ -4,10 +4,22 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { useEffect } from 'react';
 import 'jquery';
 import '@popperjs/core'; // Edit here
-// import 'bootstrap/dist/js/bootstrap.bundle';
 function MyApp({ Component, pageProps }) {
   useEffect(()=>{
+    window.$ = window.jQuery = require('jquery')
+
     import("bootstrap/dist/js/bootstrap");
+
+    $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $(".header").addClass("active");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $(".header").removeClass("active");
+        }
+    });
+});
 },[])
   return <Component {...pageProps} />
 }
