@@ -3,7 +3,7 @@ import React from 'react'
 function TextSection() {
   return (
     <div>
-        <section className="page-section bg-primary" id="about">
+        <section className="page-section bg-secondary" id="about">
             <div className="container px-4 px-lg-5">
                 <div className="row gx-4 gx-lg-5 justify-content-center">
                     <div className="col-lg-8 text-center">

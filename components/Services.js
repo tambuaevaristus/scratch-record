@@ -1,4 +1,10 @@
 import React from "react";
+import { TbMicrophone2} from "react-icons/tb";
+
+import { BsCameraReels} from "react-icons/bs";
+import { SiPrismic,SiMicrosoftacademic} from "react-icons/si";
+
+
 
 function Services() {
   return (
@@ -10,10 +16,10 @@ function Services() {
           <div className="row gx-4 gx-lg-5">
             <div className="col-lg-3 col-md-6 text-center">
               <div className="mt-5">
-                <div className="mb-2">
-                  <i className="bi-gem fs-1 text-primary"></i>
+                <div className="mb-4">
+                  <TbMicrophone2 size={55} color="" />
                 </div>
-                <h3 className="h4 mb-2">Sturdy Themes</h3>
+                <h3 className="h4 mb-2">Recording studio</h3>
                 <p className="text-muted mb-0">
                   Our themes are updated regularly to keep them bug free!
                 </p>
@@ -21,10 +27,10 @@ function Services() {
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="mt-5">
-                <div className="mb-2">
-                  <i className="bi-laptop fs-1 text-primary"></i>
+                <div className="mb-4">
+                  <BsCameraReels size={55} color=""  />
                 </div>
-                <h3 className="h4 mb-2">Up to Date</h3>
+                <h3 className="h4 mb-2">Video Editing</h3>
                 <p className="text-muted mb-0">
                   All dependencies are kept current to keep things fresh.
                 </p>
@@ -32,10 +38,10 @@ function Services() {
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="mt-5">
-                <div className="mb-2">
-                  <i className="bi-globe fs-1 text-primary"></i>
+                <div className="mb-4">
+                <SiMicrosoftacademic size={55} color=""  />
                 </div>
-                <h3 className="h4 mb-2">Ready to Publish</h3>
+                <h3 className="h4 mb-2">Music Training</h3>
                 <p className="text-muted mb-0">
                   You can use this design as is, or you can make changes!
                 </p>
@@ -43,10 +49,10 @@ function Services() {
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="mt-5">
-                <div className="mb-2">
-                  <i className="bi-heart fs-1 text-primary"></i>
+                <div className="mb-4">
+                <SiPrismic size={55} color=""  />
                 </div>
-                <h3 className="h4 mb-2">Made with Love</h3>
+                <h3 className="h4 mb-2">Live Performance</h3>
                 <p className="text-muted mb-0">
                   Is it really open source if s not made with love?
                 </p>
