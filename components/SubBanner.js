@@ -1,15 +1,15 @@
+import Image from "next/image";
 import React from "react";
-import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
 // import * as mdb from "mdb-ui-kit"; // lib
 // import { Input } from "mdb-ui-kit"; // module
-function SubBanner() {
+function SubBanner(props) {
   return (
-    <div className='bg-image' style={{ maxWidth: '24rem' }}>
-    <img src='https://mdbootstrap.com/img/new/standard/city/053.webp' className='img-fluid' alt='Sample' />
-    <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
-      <div className='d-flex justify-content-center align-items-center h-100'>
-        <p className='text-white mb-0'>Can you see me?</p>
+    <div className='bg-image'>
+    <Image src='/assets/banners/banner2.jpg' width={1500} height={400}  />
+    <div className='mask ' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+      <div className='d-flex justify-content-center my-5 align-items-center h-100'>
+        <h1 className='text-white fw-bolder display-2'>{props.page}</h1>
       </div>
     </div>
   </div>

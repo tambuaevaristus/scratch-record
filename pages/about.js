@@ -13,7 +13,7 @@ function about() {
 
           <h1 className="mt-5">About</h1>
       </div> */}
-      <SubBanner />
+      <SubBanner page="About"/>
       <TextSection />
 
       <Footer />

@@ -1,5 +1,4 @@
-@import url();
-
+@import '~mdb-ui-kit/css/mdb.min.css';
 html,
 body {
   padding: 0;
