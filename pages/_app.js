@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { useEffect } from 'react';
 import 'jquery';
 import '@popperjs/core'; // Edit here
+// import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+
 function MyApp({ Component, pageProps }) {
   useEffect(()=>{
     window.$ = window.jQuery = require('jquery')
