@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Services from "../components/Services";
 import SubBanner from "../components/SubBanner";
+import Team from "../components/Team";
 import TextSection from "../components/TextSection";
 
 function about() {
@@ -13,8 +14,34 @@ function about() {
 
           <h1 className="mt-5">About</h1>
       </div> */}
-      <SubBanner page="About"/>
+      <SubBanner page="About" />
       <TextSection />
+
+      <div className="container text-center">
+        <h1 className="my-4 fw-bold fs-3">Team Members</h1>
+        <div className="row ">
+          <Team
+            name="Tambua"
+            role="Brand Ambassador"
+            image="/assets/banners/banner1.jpg"
+          />
+          <Team
+            name="Tambua"
+            role="Brand Ambassador"
+            image="/assets/banners/banner1.jpg"
+          />
+          <Team
+            name="Tambua"
+            role="Brand Ambassador"
+            image="/assets/banners/banner1.jpg"
+          />
+          <Team
+            name="Tambua"
+            role="Brand Ambassador"
+            image="/assets/banners/banner1.jpg"
+          />
+        </div>
+      </div>
 
       <Footer />
     </div>
