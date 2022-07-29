@@ -49,7 +49,7 @@ function Services() {
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="mt-5">
-                <div className="mb-4  rounded-circle p-4 border">
+                <div className="mb-4  p-4">
                 <SiPrismic size={55} color=""  />
                 </div>
                 <h3 className="h4 mb-2">Live Performance</h3>

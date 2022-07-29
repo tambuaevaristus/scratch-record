@@ -17,9 +17,9 @@ function about() {
       <SubBanner page="About" />
       <TextSection />
 
-      <div className="container text-center">
+      <div className="container text-center py-5">
         <h1 className="my-4 fw-bold fs-3">Team Members</h1>
-        <div className="row ">
+        <div className="row px-4 px-md-0  ">
           <Team
             name="Tambua"
             role="Brand Ambassador"
@@ -28,7 +28,7 @@ function about() {
           <Team
             name="Tambua"
             role="Brand Ambassador"
-            image="/assets/banners/banner1.jpg"
+            image="/team/pasi.png"
           />
           <Team
             name="Tambua"
