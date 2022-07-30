@@ -6,7 +6,7 @@ import {
   FaYoutube,
   FaTwitter,
   FaTelegram,
-  FaTiktok
+  FaTiktok,
 } from "react-icons/fa";
 
 function Footer() {
