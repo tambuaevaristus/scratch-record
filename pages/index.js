@@ -10,13 +10,17 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
-      
+  
+    <>
+    <Head>
+      <title>Scratch Record | Home</title>
+      <meta name="keywords" content="scratch records" />
+    </Head>
+     <div>
       <Banner />
       <TextSection />
       <Services />
-   
-    
     </div>
+    </>
   );
 }
