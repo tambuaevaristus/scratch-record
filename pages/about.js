@@ -9,7 +9,7 @@ import TextSection from "../components/TextSection";
 function about() {
   return (
     <div>
-      <Header />
+      
       {/* <div className="container-fluid text-center bg-primary  py-5">
 
           <h1 className="mt-5">About</h1>
@@ -43,7 +43,7 @@ function about() {
         </div>
       </div>
 
-      <Footer />
+     
     </div>
   );
 }

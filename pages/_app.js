@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { useEffect } from 'react';
 import 'jquery';
 import '@popperjs/core'; // Edit here
+import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {
   useEffect(()=>{
@@ -22,7 +23,11 @@ function MyApp({ Component, pageProps }) {
     });
 });
 },[])
-  return <Component {...pageProps} />
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  )
 }
 
 export default MyApp
