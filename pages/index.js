@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Services from "../components/Services";
 import TextSection from "../components/TextSection";
+import VideoCarousel from "../components/VideoCarousel";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Banner />
       <TextSection />
       <Services />
+      <VideoCarousel />
     </div>
     </>
   );
