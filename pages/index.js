@@ -26,3 +26,25 @@ export default function Home() {
     </>
   );
 }
+
+
+// SCRATCH RECORDS
+// Scratch Records is a musical label base in Douala Cameroon, Central Africa.  
+// Vision: Taking entertainment to it's summit.
+// Mission: Scratch Records searches, recognises, signs, produces and promotes artists of all gender and all genre of music.
+// Scratch Records runs a recording studio and does music distribution too to music online stores and platforms.
+// Currently Scratch Records has signed one female gospel artist in the name of Passigreat with some songs already out on all major music stores, and currently working on more release.
+// Contacts and names of social media platforms of Scratch Records:
+// Tel: +237674421540
+// Tel: +237695770772
+// YouTube: Scratch Records
+// Facebook: Scratch Records
+// Instagram: Scratch Records
+// Twitter: Scratch Records
+// Email: rholfterence@gmail.com
+
+// Name of scratch records artist's social media platforms:
+// YouTube: Passigreat
+// Facebook: Passigreat official
+// Instagram: Passigreat
+// Email: tambuapasi@gmail.com
