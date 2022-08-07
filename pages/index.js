@@ -22,7 +22,7 @@ export default function Home() {
       <BannerLogo />
       <TextSection />
       <Services />
-      <VideoCarousel />
+      {/* <VideoCarousel /> */}
     </div>
     </>
   );

@@ -28,7 +28,9 @@ a {
 
 
 
-
+.footer{
+  background-color: black;
+}
 
 .typing::before {
     content: '';

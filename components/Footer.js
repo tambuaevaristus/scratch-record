@@ -12,12 +12,12 @@ import {
 function Footer() {
   return (
     <div>
-      <footer className="footer dark-mode bg-dark pt-5 pb-4 pb-lg-5">
+      <footer className="footer bg-dar pt-5 pb-4 pb-lg-5">
         <div className="container pt-lg-4">
           <div className="row pb-5">
             <div className="col-lg-4  col-sm-6">
               <div className="navbar-brand text-dark p-0 me-auto mb-3 mb-lg-4">
-                <Image src="/assets/logo.png" width={300} height={200} />
+                <Image src="/assets/black-1.png" width={300} height={200} />
               </div>
               <form className="needs-validation">
                 <label className="form-label">

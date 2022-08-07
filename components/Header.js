@@ -40,35 +40,35 @@ function Header() {
             <ul className="navbar-nav ms-auto px-4 ">
               <li className="nav-item">
                 <Link href="/">
-                  <a className="nav-link" aria-current="page">
+                  <a className="nav-link text-white font-weight-bold" aria-current="page">
                     Home
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/about">
-                  <a className="nav-link" aria-current="page">
+                  <a className="nav-link text-white font-weight-bold" aria-current="page">
                     About
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/services">
-                  <a className="nav-link" aria-current="page">
+                  <a className="nav-link text-white font-weight-bold" aria-current="page">
                     Services
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/project">
-                  <a className="nav-link" aria-current="page">
+                  <a className="nav-link text-white font-weight-bold" aria-current="page">
                     Projects
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/contact">
-                  <a className="nav-link" aria-current="page">
+                  <a className="nav-link text-white font-weight-bold" aria-current="page">
                     Contact
                   </a>
                 </Link>
