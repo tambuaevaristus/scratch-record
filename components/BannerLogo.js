@@ -8,7 +8,7 @@ function BannerLogo() {
         src="/assets/logoBanner.gif"
         className="mt-4"
         width="100%"
-        height="500"
+        height="600"
       />
     </div>
   );
