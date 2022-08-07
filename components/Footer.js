@@ -12,7 +12,7 @@ import {
 function Footer() {
   return (
     <div>
-      <footer className="footer bg-dar pt-5 pb-4 pb-lg-5">
+      <footer className="footer  bg-black pt-5 pb-4 pb-lg-5">
         <div className="container pt-lg-4">
           <div className="row pb-5">
             <div className="col-lg-4  col-sm-6">
