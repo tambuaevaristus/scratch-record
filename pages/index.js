@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
 import Banner from "../components/Banner";
+import BannerLogo from "../components/BannerLogo";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Services from "../components/Services";
@@ -18,7 +19,7 @@ export default function Home() {
       <meta name="keywords" content="scratch records" />
     </Head>
      <div>
-      <Banner />
+      <BannerLogo />
       <TextSection />
       <Services />
       <VideoCarousel />
