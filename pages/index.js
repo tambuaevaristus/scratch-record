@@ -20,7 +20,7 @@ export default function Home() {
     </Head>
      <div>
       <Banner />
-      <TextSection />
+      <About />
       <Services />
       <BannerLogo />
     </div>

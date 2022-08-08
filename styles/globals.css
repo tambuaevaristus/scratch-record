@@ -26,8 +26,9 @@ a {
     background: black;
   }
 }
-
-
+#about{
+  background: linear-gradient(60deg, rgba(175, 157, 140, 0.993), #421a05);
+}
 .header-text{
   font-size: 90px;
 }
@@ -240,6 +241,11 @@ hr {
   background-color: currentColor;
   border: 0;
   opacity: 0.25;
+}
+
+ul li:hover a{
+  border-bottom: 2px solid orangered;
+  color: orangered;
 }
 
 hr:not([size]) {
