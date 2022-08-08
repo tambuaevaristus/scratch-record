@@ -3,13 +3,8 @@ import React from "react";
 
 function BannerLogo() {
   return (
-    <div className=" position-relative bg-black pt-5">
-      <img
-        src="/assets/logoBanner.gif"
-        className="mt-4"
-        width="100%"
-        height="600"
-      />
+    <div className=" position-relative py-5 bg-black">
+      <img src="/assets/logoBanner.gif" className=" img-fluid" width="100%" />
     </div>
   );
 }

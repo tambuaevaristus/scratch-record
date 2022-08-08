@@ -19,10 +19,10 @@ export default function Home() {
       <meta name="keywords" content="scratch records" />
     </Head>
      <div>
-      <BannerLogo />
+      <Banner />
       <TextSection />
       <Services />
-      {/* <VideoCarousel /> */}
+      <BannerLogo />
     </div>
     </>
   );
