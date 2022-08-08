@@ -19,7 +19,7 @@ function Services() {
                 <div className="mb-4">
                   <TbMicrophone2 size={55} color="" />
                 </div>
-                <h3 className="h4 mb-2">Recording studio</h3>
+                <h3 className="h4 mb-2">Recording <br/> studio</h3>
                 <p className="text-muted mb-0">
                   Our themes are updated regularly to keep them bug free!
                 </p>
@@ -30,7 +30,7 @@ function Services() {
                 <div className="mb-4">
                   <BsCameraReels size={55} color=""  />
                 </div>
-                <h3 className="h4 mb-2">Video Editing</h3>
+                <h3 className="h4 mb-2">Video <br/> Editing</h3>
                 <p className="text-muted mb-0">
                   All dependencies are kept current to keep things fresh.
                 </p>
@@ -41,7 +41,7 @@ function Services() {
                 <div className="mb-4">
                 <SiMicrosoftacademic size={55} color=""  />
                 </div>
-                <h3 className="h4 mb-2">Music Training</h3>
+                <h3 className="h4 mb-2">Music <br/> Training</h3>
                 <p className="text-muted mb-0">
                   You can use this design as is, or you can make changes!
                 </p>
@@ -52,7 +52,7 @@ function Services() {
                 <div className="mb-4">
                 <SiPrismic size={55} color=""  />
                 </div>
-                <h3 className="h4 mb-2">Live Performance</h3>
+                <h3 className="h4 mb-2">Live <br/> Performance</h3>
                 <p className="text-muted mb-0">
                   Is it really open source if s not made with love?
                 </p>
