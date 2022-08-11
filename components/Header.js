@@ -59,13 +59,7 @@ function Header() {
                   </a>
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link href="/project">
-                  <a className="nav-link text-white font-weight-bold" aria-current="page">
-                    Projects
-                  </a>
-                </Link>
-              </li>
+            
               <li className="nav-item">
                 <Link href="/contact">
                   <a className="nav-link text-white font-weight-bold" aria-current="page">

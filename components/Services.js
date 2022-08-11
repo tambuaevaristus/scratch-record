@@ -14,7 +14,9 @@ function Services() {
           <h2 className="text-center mt-0">At Your Service</h2>
           <hr className="divider" />
           <div className="row gx-4 gx-lg-5">
-            <div className="col-lg-3 col-md-6 text-center">
+
+
+            <div className="col-lg-3 col-md-6 hover-overlay hover-zoom hover-shadow ripple pb-3 text-center">
               <div className="mt-5">
                 <div className="mb-4">
                   <TbMicrophone2 size={55} color="" />
@@ -25,7 +27,7 @@ function Services() {
                 </p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
+            <div className="col-lg-3 col-md-6 hover-overlay hover-zoom hover-shadow ripple pb-3  text-center">
               <div className="mt-5">
                 <div className="mb-4">
                   <BsCameraReels size={55} color=""  />
@@ -36,7 +38,7 @@ function Services() {
                 </p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
+            <div className="col-lg-3 col-md-6 hover-overlay hover-zoom hover-shadow ripple pb-3  text-center">
               <div className="mt-5">
                 <div className="mb-4">
                 <SiMicrosoftacademic size={55} color=""  />
@@ -47,7 +49,7 @@ function Services() {
                 </p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
+            <div className="col-lg-3 col-md-6 hover-overlay hover-zoom hover-shadow ripple pb-3  text-center">
               <div className="mt-5">
                 <div className="mb-4">
                 <SiPrismic size={55} color=""  />
