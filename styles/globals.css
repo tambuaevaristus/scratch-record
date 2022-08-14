@@ -27,7 +27,7 @@ a {
   }
 }
 #about{
-  background: linear-gradient(60deg, rgba(175, 157, 140, 0.993), #421a05);
+  background: linear-gradient(60deg, black, #421a05);
 }
 .header-text{
   font-size: 90px;
