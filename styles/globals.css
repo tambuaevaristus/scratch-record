@@ -4339,6 +4339,7 @@ fieldset:disabled .btn {
   list-style: none;
 }
 
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -11896,18 +11897,18 @@ header.masthead {
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(
       to bottom,
-      rgba(92, 77, 66, 0.8) 0%,
-      rgba(92, 77, 66, 0.8) 100%
+      rgba(0, 4, 66, 0.9) 0%,
+      rgba(0, 0, 0, 0.8) 100%
     ),
     url("/assets/banners/banner3.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 header.masthead h1,
 header.masthead .h1 {
-  font-size: 2.25rem;
+  /* font-size: .25rem; */
 }
 @media (min-width: 992px) {
   header.masthead {
@@ -11921,7 +11922,7 @@ header.masthead .h1 {
   }
   header.masthead h1,
   header.masthead .h1 {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }
 @media (min-width: 1200px) {

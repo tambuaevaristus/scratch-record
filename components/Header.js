@@ -46,14 +46,14 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/about">
+                <Link href="#about">
                   <a className="nav-link text-white font-weight-bold" aria-current="page">
                     About
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/services">
+                <Link href="#services">
                   <a className="nav-link text-white font-weight-bold" aria-current="page">
                     Services
                   </a>
@@ -61,7 +61,7 @@ function Header() {
               </li>
             
               <li className="nav-item">
-                <Link href="/contact">
+                <Link href="#contact">
                   <a className="nav-link text-white font-weight-bold" aria-current="page">
                     Contact
                   </a>

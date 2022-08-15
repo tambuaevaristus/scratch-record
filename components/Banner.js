@@ -1,8 +1,10 @@
 import React from "react";
+import Head from "next/head";
 
 function Banner() {
   return (
     <div>
+     
       <header className="masthead">
         <div className="container px-4 px-lg-5 h-100">
 
@@ -20,7 +22,9 @@ function Banner() {
             </div>
           </div>
         </div>
-      </header>
+      </header> 
+
+     
     </div>
   );
 }

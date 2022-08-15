@@ -7,7 +7,7 @@ import { AiOutlineFacebook, AiOutlineMail } from "react-icons/ai";
 
 function Contact() {
   return (
-    <div className="bg-black">
+    <div className="bg-black" id="contact">
       <div className="container text-center text-white py-5">
         <h1>Contact Information</h1>
         <div className=" row">
