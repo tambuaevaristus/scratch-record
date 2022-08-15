@@ -30,8 +30,8 @@ a {
     background: black;
   }
 }
-#about {
-  background: linear-gradient(60deg, black,       rgba(0, 0, 0, 1) 0%
+#about{
+  background: linear-gradient(70deg, rgb(37,37,39),       rgb(53, 25, 25)
   );
 }
 .header-text {

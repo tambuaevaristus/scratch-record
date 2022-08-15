@@ -18,7 +18,7 @@ function Footer() {
           <div className="row pb-5">
             <div className="col-lg-3   col-md-6">
               <div className="navbar-brand text-dark p-0 me-auto mb-3 mb-lg-4">
-                <Image src="/assets/black-1.png" width={400} height={300} />
+                <Image src="/assets/black-1.png" width={550} height={400} />
               </div>
               <form className="needs-validation">
                 <label className="form-label">
@@ -26,7 +26,7 @@ function Footer() {
                 </label>
               </form>
             </div>
-            <div className=" col-lg-3 col-md-6 pt-4 pt-md-1 pt-lg-0">
+            <div className=" col-lg-2 col-md-6 pt-4 pt-md-1 pt-lg-0">
               <h4 className="text-muted fw-bold">Menu</h4>
               <div id="useful-links" className="">
                 <ul className="nav flex-column text-white">
@@ -103,7 +103,9 @@ function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-5 col-md-6">
+            <h4 className="text-muted fw-bold">Location</h4>
+
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4119.8283083523165!2d9.71880313301004!3d4.038866837673434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1061135b8b37c923%3A0x21ebaf461586f223!2sScratch%20Records%20Douala!5e1!3m2!1sen!2scm!4v1660561273705!5m2!1sen!2scm"
                 width="100%"
@@ -113,7 +115,11 @@ function Footer() {
               ></iframe>
             </div>
           </div>
-          <p className="nav d-block fs-xs text-center text-end pb-2 pb-lg-0 mb-0">
+         
+        </div>
+
+        <div className="mt-5">
+        <p className="nav d-block fs-xs text-center text-end pb-2 pb-lg-0 mb-0">
             <span className="text-light opacity-50">
               &copy; All rights reserved. Design by{" "}
             </span>
