@@ -3,6 +3,7 @@ import Image from "next/image";
 import About from "../components/About";
 import Banner from "../components/Banner";
 import BannerLogo from "../components/BannerLogo";
+import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Services from "../components/Services";
@@ -25,6 +26,7 @@ export default function Home() {
       <Services />
       <Social />
       <BannerLogo />
+      <Contact />
     </div>
     </>
   );

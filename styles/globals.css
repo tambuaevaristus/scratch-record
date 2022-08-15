@@ -1,5 +1,5 @@
-@import '~mdb-ui-kit/css/mdb.min.css';
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import "~mdb-ui-kit/css/mdb.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
 html,
 body {
   padding: 0;
@@ -26,110 +26,84 @@ a {
     background: black;
   }
 }
-#about{
+#about {
   background: linear-gradient(60deg, black, #421a05);
 }
-.header-text{
+.header-text {
   font-size: 90px;
 }
-.black{
+.black {
   background-color: black;
 }
 
 .typing::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: #4FC3F7;
-    animation: cursorBlink 0.8s steps(3) infinite;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: #4fc3f7;
+  animation: cursorBlink 0.8s steps(3) infinite;
 }
 
 @keyframes cursorBlink {
+  0%,
+  75% {
+    opacity: 1;
+  }
 
-    0%,
-    75% {
-        opacity: 1;
-    }
-
-    76%,
-    100% {
-        opacity: 0;
-    }
+  76%,
+  100% {
+    opacity: 0;
+  }
 }
 
 .typing {
-    position: relative;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #3333);
+  position: relative;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #3333);
 }
 
 .typing h2 {
-    position: relative;
-    color: #4FC3F7;
-    letter-spacing: 5px;
-    font-size: 4rem;
-    overflow: hidden;
-    margin-bottom: 0;
-    animation: type 5s steps(11) infinite;
+  position: relative;
+  color: #4fc3f7;
+  letter-spacing: 5px;
+  font-size: 4rem;
+  overflow: hidden;
+  margin-bottom: 0;
+  animation: type 5s steps(11) infinite;
 }
 
 @keyframes type {
+  0%,
+  100% {
+    width: 0px;
+  }
 
+  30%,
+  60% {
+    width: 394.09px;
+  }
+}
+
+@media (max-width: 330px) {
+  .typing h2 {
+    font-size: 3rem;
+    animation: type 5s steps(10) infinite;
+  }
+
+  @keyframes type {
     0%,
     100% {
-        width: 0px;
+      width: 0px;
     }
 
     30%,
     60% {
-        width: 394.09px;
+      width: 305px;
     }
+  }
 }
-
-@media(max-width: 330px) {
-    .typing h2 {
-        font-size: 3rem;
-        animation: type 5s steps(10) infinite;
-    }
-
-    @keyframes type {
-
-        0%,
-        100% {
-            width: 0px;
-        }
-
-        30%,
-        60% {
-            width: 305px;
-        }
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ================================================================= */
 /* General Style  */
@@ -243,7 +217,7 @@ hr {
   opacity: 0.25;
 }
 
-ul li:hover a{
+ul li:hover a {
   border-bottom: 2px solid orangered;
   color: orangered;
 }
@@ -268,7 +242,7 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-weight: 900;
   line-height: 1.2;
 }
@@ -4357,10 +4331,11 @@ fieldset:disabled .btn {
 }
 
 .nav {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   padding-left: 0;
-  margin-bottom: 0;
+  margin-bottom: 0; */
   list-style: none;
 }
 
@@ -12072,18 +12047,17 @@ header.masthead .h1 {
   background-color: rgba(10, 10, 10, 0.637);
 } */
 
-
 .header {
   position: fixed;
-	z-index: 1000;
-	/* height: 100px; */
-  width: 100%; 
-	background-color: transparent;
-	padding: 18px;
-	-webkit-transition: all ease-out .5s;
-  -moz-transition: all ease-out .5s;
-  -o-transition: all ease-out .5s;
-  transition: all ease-out .5s;
+  z-index: 1000;
+  /* height: 100px; */
+  width: 100%;
+  background-color: transparent;
+  padding: 18px;
+  -webkit-transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+  transition: all ease-out 0.5s;
 }
 
 .active {

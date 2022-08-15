@@ -9,7 +9,7 @@ import { SiPrismic,SiMicrosoftacademic} from "react-icons/si";
 function Services() {
   return (
     <div>
-      <section className="page-section" id="services">
+      <section className="page-section bg-dark text-white" id="services">
         <div className="container px-4 px-lg-5">
           <h2 className="text-center mt-0">At Your Service</h2>
           <hr className="divider" />
