@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import {
   FaFacebook,
@@ -30,30 +31,33 @@ function Footer() {
               <div id="useful-links" className="">
                 <ul className="nav flex-column text-white">
                   <li className="nav-item">
-                    <a href="#" className="nav-link text-muted px-0 pt-1 pb-2">
+                  <Link href="/">
+                    <a  className="nav-link text-muted  px-0 pt-1 pb-2">
                       Home
                     </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="#" className="nav-link text-muted  px-0 pt-1 pb-2">
-                      Services
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#" className="nav-link text-muted  px-0 pt-1 pb-2">
-                      Case Studies
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#" className="nav-link text-muted  px-0 pt-1 pb-2">
+                  <Link href="#about">
+                    <a  className="nav-link text-muted  px-0 pt-1 pb-2">
                       About Us
                     </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="#" className="nav-link text-muted  px-0 pt-1 pb-2">
-                      News &amp; Insights
+                  <Link href="#services">
+                    <a  className="nav-link text-muted  px-0 pt-1 pb-2">
+                      Services
                     </a>
+                    </Link>
                   </li>
+                  <li className="nav-item">
+                    <Link href="#contact">
+                    <a  className="nav-link text-muted  px-0 pt-1 pb-2">
+                      Contact
+                    </a>
+                    </Link>
+                  </li>                 
                 </ul>
               </div>
             </div>
@@ -61,7 +65,7 @@ function Footer() {
             <div className="col-lg-2 col-md-6">
               <h4 className="text-white text-muted fw-bold">Socials</h4>
               <div className="collapsen">
-                <ul className="  mb-2 mb-lg-0">
+                <ul className="  mb-2 mb-lg-0 d-flex justify-content-around my-4  my-lg-0 flex-lg-column d-lg-">
                   <li className="nav-item ">
                     <a
                       href="#"

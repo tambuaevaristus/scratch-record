@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { GoThreeBars} from "react-icons/go";
 
 function Header() {
   return (
@@ -14,7 +15,7 @@ function Header() {
               </Link>
             </div>
           <button
-            className="navbar-toggler  navbar-toggler-right"
+            className="navbar-toggler navbar-toggler-right"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarResponsive"
@@ -22,7 +23,7 @@ function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <GoThreeBars size={30} />
           </button>
 
           <div

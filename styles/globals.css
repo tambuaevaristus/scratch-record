@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+ li{
+  list-style-type: none;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -27,7 +31,8 @@ a {
   }
 }
 #about {
-  background: linear-gradient(60deg, black, #421a05);
+  background: linear-gradient(60deg, black,       rgba(0, 0, 0, 1) 0%
+  );
 }
 .header-text {
   font-size: 90px;
@@ -11897,7 +11902,7 @@ header.masthead {
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(
       to bottom,
-      rgba(0, 4, 66, 0.9) 0%,
+      rgba(0, 0, 6, 0.7) 0%,
       rgba(0, 0, 0, 0.8) 100%
     ),
     url("/assets/banners/banner3.jpg");
@@ -11922,7 +11927,7 @@ header.masthead .h1 {
   }
   header.masthead h1,
   header.masthead .h1 {
-    font-size: 5rem;
+    font-size: 7rem;
   }
 }
 @media (min-width: 1200px) {
