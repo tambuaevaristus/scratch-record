@@ -16,14 +16,14 @@ function Services() {
           <div className="row gx-4 gx-lg-5">
 
 
-            <div className="col-lg-3 col-md-6 hover-overlay hover-zoom hover-shadow ripple pb-3 text-center">
+            <div className="col-lg-3  col-md-6 hover-overlay hover-zoom hover-shadow ripple pb-3 text-center">
               <div className="mt-5">
                 <div className="mb-4">
                   <TbMicrophone2 size={55} color="" />
                 </div>
                 <h3 className="h4 mb-2">Recording <br/> studio</h3>
                 <p className="text-muted mb-0">
-                  Our themes are updated regularly to keep them bug free!
+Well equiped Studio for music production
                 </p>
               </div>
             </div>
@@ -34,7 +34,7 @@ function Services() {
                 </div>
                 <h3 className="h4 mb-2">Video <br/> Editing</h3>
                 <p className="text-muted mb-0">
-                  All dependencies are kept current to keep things fresh.
+                    Video coverage and Editing 
                 </p>
               </div>
             </div>
@@ -45,7 +45,7 @@ function Services() {
                 </div>
                 <h3 className="h4 mb-2">Music <br/> Training</h3>
                 <p className="text-muted mb-0">
-                  You can use this design as is, or you can make changes!
+                  Run an intense music training from begginer to advance
                 </p>
               </div>
             </div>
@@ -56,7 +56,7 @@ function Services() {
                 </div>
                 <h3 className="h4 mb-2">Live <br/> Performance</h3>
                 <p className="text-muted mb-0">
-                  Is it really open source if s not made with love?
+                  Available for live performance
                 </p>
               </div>
             </div>
