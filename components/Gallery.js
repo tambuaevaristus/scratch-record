@@ -2,7 +2,8 @@ import React from "react";
 
 function Gallery() {
   return (
-   <div className="bg-dark">
+   <div className="bg-dark text-center py-5" id="gallery">
+    <h1 className="text-white">Gallery</h1>
      <div className="container p-4 ">
       <div className="row">
         <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">

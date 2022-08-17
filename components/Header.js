@@ -60,6 +60,13 @@ function Header() {
                   </a>
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link href="#gallery">
+                  <a className="nav-link text-white font-weight-bold" aria-current="page">
+                    Gallery
+                  </a>
+                </Link>
+              </li>
             
               <li className="nav-item">
                 <Link href="#contact">
