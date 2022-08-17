@@ -13,6 +13,60 @@ a {
   text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+#letter { /*torn paper border*/
+  height:450px;
+  position:relative;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  /* background-image:url('img/background.jpg'); */
+  background-size:cover;
+  opacity:0.8;
+  border-style: solid; 
+  border-width: 40px 40px 40px; 
+     -moz-border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat; 
+  -webkit-border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat; 
+       -o-border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat; 
+          border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat;
+}
+
+
+
+
+/* 
+.bord {
+  border-width: 20px 0 20px 0;
+  border-style:solid;
+  border-image: url(https://i.postimg.cc/DZYqPDTD/bordernew.png) 50 0 50 0 repeat;
+  -webkit-border-image: url(https://i.postimg.cc/DZYqPDTD/bordernew.png) 50 0 50 0 repeat;
+  -moz-border-image: url(https://i.postimg.cc/DZYqPDTD/bordernew.png) 50 0 50 0 repeat;
+  border-image-slice: 50 0 50 0 fill;
+  border-image-width: 20 0 20 0;
+  width: 100%;
+  height: 60px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
  li{
   list-style-type: none;
 }

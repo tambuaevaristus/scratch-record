@@ -5,6 +5,7 @@ import Banner from "../components/Banner";
 import BannerLogo from "../components/BannerLogo";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Gallery from "../components/Gallery";
 import Header from "../components/Header";
 import Services from "../components/Services";
 import Social from "../components/Social";
@@ -26,7 +27,7 @@ export default function Home() {
       <Services />
       <Social />
       <BannerLogo />
-      {/* <TextSection /> */}
+      <Gallery />
       <Contact />
     </div>
     </>
