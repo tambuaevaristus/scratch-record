@@ -2,9 +2,9 @@ import React from 'react'
 
 function Gallery2() {
   return (
-    <div className="bg-dark py-5 ">
-        <div className="container">
-          <div className="container-gallery">
+    <div className="bg-dark h-100  gallery2-div align-content-center text-center px-4 ">
+        <div className="container py-5 ">
+          <div className="container-gallery d-flex ">
           {/* <div className="popup popup-1">
              <img
               className="img-fluid"
