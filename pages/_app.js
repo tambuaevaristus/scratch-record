@@ -8,6 +8,8 @@ import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {
   useEffect(()=>{
+
+
     window.$ = window.jQuery = require('jquery')
 
     import("bootstrap/dist/js/bootstrap");
@@ -22,6 +24,13 @@ function MyApp({ Component, pageProps }) {
         }
     });
 });
+
+$(".nav-link").on("click", function(){
+	$(".nav-link.active-link").removeClass("active-link");
+	$(this).addClass("active-link");
+});
+
+
 },[])
   return (
     <Layout>

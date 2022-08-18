@@ -14,10 +14,12 @@ function Contact() {
           <div className=" col-md-6 col-lg-4 my-4">
             <div className="card bg-dark">
               <div className="card-body text-center">
-                <GiMegaphone size={80} color="grey" />
+               <a href="">
+               <GiMegaphone size={80} color="grey" />
                 <p className="card-text text-white">
                   +237 674421540 <br /> +237 695770772
                 </p>
+               </a>
               </div>
             </div>
           </div>

@@ -41,28 +41,28 @@ function Header() {
             <ul className="navbar-nav ms-auto px-4 ">
               <li className="nav-item">
                 <Link href="/">
-                  <a className="nav-link text-white font-weight-bold" aria-current="page">
+                  <a className="nav-link text-white font-weight-bold active-link" >
                     Home
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="#about">
-                  <a className="nav-link text-white font-weight-bold" aria-current="page">
+                  <a className="nav-link text-white font-weight-bold" >
                     About
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="#services">
-                  <a className="nav-link text-white font-weight-bold" aria-current="page">
+                  <a className="nav-link text-white font-weight-bold">
                     Services
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="#gallery">
-                  <a className="nav-link text-white font-weight-bold" aria-current="page">
+                  <a className="nav-link text-white font-weight-bold">
                     Gallery
                   </a>
                 </Link>
@@ -70,7 +70,7 @@ function Header() {
             
               <li className="nav-item">
                 <Link href="#contact">
-                  <a className="nav-link text-white font-weight-bold" aria-current="page">
+                  <a className="nav-link text-white font-weight-bold">
                     Contact
                   </a>
                 </Link>
