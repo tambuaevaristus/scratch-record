@@ -15,8 +15,8 @@ function About() {
                 Scratch Records runs a recording studio and does music
                 distribution too to music online stores and platforms.
               </p>
-              <a className="btn btn-light btn-xl" href="#services">
-                Get Started!
+              <a className="btn btn-outline-light" href="#services">
+                Check our Services
               </a>
             </div>
           </div>

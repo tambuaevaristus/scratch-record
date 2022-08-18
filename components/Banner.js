@@ -15,7 +15,7 @@ function Banner() {
             </div>
             <div className="col-lg-8 align-self-baseline">
               <p className="text-white-75 mb-5">THE SUBMIT OF ENTERTAINMENT</p>
-              <a className="btn btn-primary btn-xl" href="#about">
+              <a className="btn btn-outline-secondary btn-xl" href="#about">
                 Find Out More
               </a>
             </div>
