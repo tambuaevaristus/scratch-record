@@ -11912,7 +11912,10 @@ hr.divider {
   background-color: #f4623a;
   opacity: 1;
 }
-
+ 
+p{
+  text-decoration: none;
+}
 hr.divider-light {
   background-color: #fff;
 }
