@@ -14,7 +14,7 @@ function Banner() {
               <hr className="divider" />
             </div>
             <div className="col-lg-8 align-self-baseline">
-              <p className="text-white-75 mb-5">THE SUBMIT OF ENTERTAINMENT</p>
+              <p className="text-white-75 mb-5">THE SUMMIT OF ENTERTAINMENT</p>
               <a className="btn btn-outline-secondary btn-xl" href="#about">
                 Find Out More
               </a>
