@@ -8,13 +8,13 @@ function Gallery() {
         <div className="row">
           <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img
-              src="/assets/scratchrecord_1.jpg"
+              src="/assets/scratchrecord_8.jpg"
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Boat on Calm Water"
             />
 
             <img
-              src="/assets/scratchrecord_2.jpg"
+              src="/assets/scratchrecord_6.jpg"
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Wintry Mountain Landscape"
             />
@@ -22,13 +22,13 @@ function Gallery() {
 
           <div className="col-lg-4 mb-4 mb-lg-0">
             <img
-              src="/assets/scratchrecord_3.jpg"
+              src="/assets/scratchrecord_1.jpg"
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Mountains in the Clouds"
             />
 
             <img
-              src="/assets/scratchrecord_4.jpg"
+              src="/assets/scratchrecord_9.jpg"
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Boat on Calm Water"
             />
@@ -36,13 +36,13 @@ function Gallery() {
 
           <div className="col-lg-4 mb-4 mb-lg-0">
             <img
-              src="/assets/scratchrecord_5.jpg"
+              src="/assets/scratchrecord_10.jpg"
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Waves at Sea"
             />
 
             <img
-              src="/assets/scratchrecord_4.jpg"
+              src="/assets/scratchrecord_7.jpg"
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Yosemite National Park"
             />
