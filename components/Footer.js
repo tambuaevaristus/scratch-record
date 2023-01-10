@@ -125,7 +125,7 @@ function Footer() {
             </span>
             <a
               className="nav-link text-muted d-inline-block p-0"
-              href="https://createx.studio/"
+              href="mailto:evaristustambua@gmail.com"
             >
               Tambua Evaristus
             </a>
