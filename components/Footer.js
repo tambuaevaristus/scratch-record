@@ -127,7 +127,7 @@ function Footer() {
               className="nav-link text-muted d-inline-block p-0"
               href="mailto:evaristustambua@gmail.com"
             >
-              Tambua Evaristus...
+              Tambua Evaristus..
             </a>
           </p>
         </div>
